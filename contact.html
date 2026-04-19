@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio — Contact</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="logo" href="index.html">Portfolio BTS SIO</a>
+        <button type="button" class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+          ☰
+        </button>
+        <nav class="main-nav" aria-label="Navigation principale">
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="competences.html">Compétences</a></li>
+            <li><a href="etudes.html">Études</a></li>
+            <li><a href="experience.html">Expérience</a></li>
+            <li><a href="productions.html">Productions</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+            <li>
+              <a class="btn-cv" href="assets/mon-cv.pdf" download>Télécharger mon CV</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <h1 class="page-title">Contact</h1>
+      <p class="page-subtitle">Pour un stage, une question sur le portfolio ou un échange professionnel.</p>
+
+      <div class="card">
+        <ul class="contact-list">
+          <li>
+            <strong>Mail professionnel :</strong>
+            <a href="mailto:votre.email@exemple.com">votre.email@exemple.com</a>
+          </li>
+          <li>
+            <strong>Mail étudiant :</strong>
+            <a href="mailto:prenom.nom@edu.etablissement.fr">prenom.nom@edu.etablissement.fr</a>
+          </li>
+          <li>
+            <strong>LinkedIn :</strong>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener"
+              >Votre profil LinkedIn</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <section class="section-block">
+        <h2>Formulaire (optionnel)</h2>
+        <p class="page-subtitle" style="margin-top: 0">
+          Pour un formulaire fonctionnel, branchez un service (Formspree, Netlify Forms, etc.).
+          Ci-dessous : champs statiques pour mise en page.
+        </p>
+        <div class="card">
+          <form action="#" method="post" style="display: grid; gap: 1rem; max-width: 480px">
+            <label>
+              <span style="display: block; margin-bottom: 0.35rem; color: var(--muted)"
+                >Nom</span
+              >
+              <input
+                type="text"
+                name="nom"
+                required
+                style="
+                  width: 100%;
+                  padding: 0.6rem 0.75rem;
+                  border-radius: 8px;
+                  border: 1px solid var(--border);
+                  background: var(--bg);
+                  color: var(--text);
+                "
+              />
+            </label>
+            <label>
+              <span style="display: block; margin-bottom: 0.35rem; color: var(--muted)"
+                >Email</span
+              >
+              <input
+                type="email"
+                name="email"
+                required
+                style="
+                  width: 100%;
+                  padding: 0.6rem 0.75rem;
+                  border-radius: 8px;
+                  border: 1px solid var(--border);
+                  background: var(--bg);
+                  color: var(--text);
+                "
+              />
+            </label>
+            <label>
+              <span style="display: block; margin-bottom: 0.35rem; color: var(--muted)"
+                >Message</span
+              >
+              <textarea
+                name="message"
+                rows="5"
+                required
+                style="
+                  width: 100%;
+                  padding: 0.6rem 0.75rem;
+                  border-radius: 8px;
+                  border: 1px solid var(--border);
+                  background: var(--bg);
+                  color: var(--text);
+                  resize: vertical;
+                "
+              ></textarea>
+            </label>
+            <button
+              type="submit"
+              class="btn-cv"
+              style="justify-self: start; border: none; cursor: pointer"
+            >
+              Envoyer
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 Votre Nom — Tous droits réservés</p>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
