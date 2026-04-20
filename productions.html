@@ -32,32 +32,61 @@
     <main>
       <h1 class="page-title">Productions</h1>
       <p class="page-subtitle">
-        Projets personnels, PPE, TP notables — ajoutez captures et liens vers dépôts ou
-        démos.
+        Projets personnels, PPE, TP notables — ajoutez captures et liens vers dépôts ou démos.
       </p>
+      <p class="skills-hint">Cliquez sur une case pour l'agrandir et afficher plus de détails.</p>
 
-      <div class="prod-grid">
-        <article class="prod-card">
-          <div class="prod-thumb">Aperçu / capture</div>
-          <div class="prod-body">
-            <h3>Titre du projet</h3>
-            <p>Technologies, objectifs, lien GitHub ou démo en ligne.</p>
+      <div class="skills-grid">
+
+        <article class="skill-item" tabindex="0" role="button" aria-expanded="false">
+          <h3>Titre du projet</h3>
+          <div class="skill-icons" aria-label="Technologies">
+            <!-- Remplace par tes vrais logos, ex : -->
+            <!-- <img class="skill-icon" src="assets/skills/python-logo.png" alt="Python" loading="lazy" /> -->
+          </div>
+          <p>Technologies utilisées, objectif principal du projet.</p>
+          <div class="skill-more">
+            <div class="skill-more-inner">
+              <p>
+                Description détaillée : contexte, ce que tu as réalisé, difficultés surmontées,
+                résultat obtenu. Ajoute un lien GitHub ou démo ici si besoin.
+              </p>
+            </div>
           </div>
         </article>
-        <article class="prod-card">
-          <div class="prod-thumb">Aperçu / capture</div>
-          <div class="prod-body">
-            <h3>Veille technologique</h3>
-            <p>Résumé et lien vers votre présentation ou article.</p>
+
+        <article class="skill-item" tabindex="0" role="button" aria-expanded="false">
+          <h3>Veille technologique</h3>
+          <div class="skill-icons" aria-label="Technologies">
+            <!-- <img class="skill-icon" src="assets/skills/..." alt="..." loading="lazy" /> -->
+          </div>
+          <p>Résumé de ta veille, thème traité, sources utilisées.</p>
+          <div class="skill-more">
+            <div class="skill-more-inner">
+              <p>
+                Détails sur la méthodologie de veille, les outils de curation utilisés,
+                les conclusions tirées et le lien vers ta présentation ou article.
+              </p>
+            </div>
           </div>
         </article>
-        <article class="prod-card">
-          <div class="prod-thumb">Aperçu / capture</div>
-          <div class="prod-body">
-            <h3>Autre réalisation</h3>
-            <p>Description courte.</p>
+
+        <article class="skill-item" tabindex="0" role="button" aria-expanded="false">
+          <h3>Autre réalisation</h3>
+          <div class="skill-icons" aria-label="Technologies">
+            <!-- <img class="skill-icon" src="assets/skills/..." alt="..." loading="lazy" /> -->
+          </div>
+          <p>Description courte de la réalisation.</p>
+          <div class="skill-more">
+            <div class="skill-more-inner">
+              <p>
+                Description détaillée, technologies impliquées, apprentissages clés
+                et résultats obtenus.
+              </p>
+            </div>
           </div>
         </article>
+
       </div>
     </main>
 
