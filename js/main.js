@@ -69,3 +69,29 @@
     closeAll();
   });
 })();
+
+(function () {
+  var btn = document.getElementById("contact-submit");
+  if (!btn) return;
+
+  btn.addEventListener("click", function () {
+    var nom     = document.getElementById("contact-nom").value.trim();
+    var email   = document.getElementById("contact-email").value.trim();
+    var message = document.getElementById("contact-message").value.trim();
+
+    if (!nom || !email || !message) {
+      alert("Merci de remplir tous les champs.");
+      return;
+    }
+
+    var destinataire = "mathisbarnabe.pro@gmail.com";
+    var sujet        = encodeURIComponent("Contact Portfolio — " + nom);
+    var corps        = encodeURIComponent(
+      "Nom : " + nom + "\n" +
+      "Email : " + email + "\n\n" +
+      "Message :\n" + message
+    );
+
+    window.location.href = "mailto:" + destinataire + "?subject=" + sujet + "&body=" + corps;
+  });
+})();
