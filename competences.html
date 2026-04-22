@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Portfolio — Compétences</title>
+    <title>Portfolio — Compétences &amp; Certifications</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -30,20 +30,17 @@
     </header>
 
     <main>
-      <h1 class="page-title">Compétences</h1>
-      <p class="page-subtitle">
-        Techniques et transversales.
-      </p>
-      <p class="skills-hint">Cliquez sur une case pour l’agrandir et afficher plus de détails.</p>
+      <h1 class="page-title">Compétences &amp; Certifications</h1>
+      <p class="page-subtitle">Techniques et transversales.</p>
+      <p class="skills-hint">Cliquez sur une case pour l'agrandir et afficher plus de détails.</p>
+
       <div class="skills-grid">
         <article class="skill-item">
           <h3>Systèmes &amp; réseaux</h3>
           <div class="skill-icons" aria-label="Outils">
             <img class="skill-icon" src="assets/skills/docker-logo.png" alt="Docker" loading="lazy" />
           </div>
-          <p>
-            Windows Server, Linux, virtualisation, routage, sécurité… 
-          </p>
+          <p>Windows Server, Linux, virtualisation, routage, sécurité…</p>
           <div class="skill-more">
             <div class="skill-more-inner">
               <p>
@@ -55,6 +52,7 @@
             </div>
           </div>
         </article>
+
         <article class="skill-item">
           <h3>Développement</h3>
           <div class="skill-icons" aria-label="Langages et outils">
@@ -63,18 +61,17 @@
             <img class="skill-icon" src="assets/skills/mariadb-logo.png" alt="MariaDB" loading="lazy" />
             <img class="skill-icon" src="assets/skills/bash-logo.png" alt="Bash" loading="lazy" />
           </div>
-          <p>
-           langages de programmations, frameworks, bases de données, méthodes (agile, Git…).
-          </p>
+          <p>Langages de programmation, bases de données, méthodes (agile, Git…).</p>
           <div class="skill-more">
             <div class="skill-more-inner">
               <p>
-                Codage: c++ (creation code pour récuperation de données et envoie de données vers un autre appareil), python, bash (automatisation de script, exemple script mise a jour
-                windows 10 vers windows 11
+                Codage : C++ (récupération et envoi de données vers un autre appareil),
+                Python, Bash (automatisation de scripts, exemple : mise à jour Windows 10 vers Windows 11).
               </p>
             </div>
           </div>
         </article>
+
         <article class="skill-item">
           <h3>Anglais</h3>
           <div class="skill-icons" aria-label="Outils">
@@ -84,11 +81,13 @@
           <div class="skill-more">
             <div class="skill-more-inner">
               <p>
-                 Compréhension document technique en anglais, apprentissage personnel de la langue anglaise via moyen personel (duolingo)
+                Compréhension de documents techniques en anglais, apprentissage
+                personnel via Duolingo.
               </p>
             </div>
           </div>
         </article>
+
         <article class="skill-item">
           <h3>Soft skills</h3>
           <div class="skill-icons" aria-label="Outils">
@@ -98,13 +97,58 @@
           <div class="skill-more">
             <div class="skill-more-inner">
               <p>
-                Très bon travail d'équipe, renforcée grâce au projet d'études de BTS, avec un emploie du temps respect et de nombreuse réunion mettant en avant les problèmes rencontrés mais réglés par la suite
+                Très bon travail d'équipe, renforcé grâce au projet BTS, avec un emploi du
+                temps respecté et de nombreuses réunions permettant d'identifier et résoudre
+                les problèmes rencontrés.
               </p>
             </div>
           </div>
         </article>
       </div>
+
+      <!-- SECTION CERTIFICATIONS -->
+      <section class="section-block" aria-labelledby="titre-certifications">
+        <h2 id="titre-certifications">Certifications</h2>
+
+        <div class="card" style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
+          <div>
+            <p class="meta">Certification numérique</p>
+            <h3 style="margin: 0 0 0.25rem; font-size: 1.05rem;">PIX</h3>
+            <p style="margin: 0; color: var(--muted); font-size: 0.92rem;">
+              Certification des compétences numériques — plateforme nationale PIX.
+            </p>
+          </div>
+          <a
+            href="assets/certifications/pix.pdf"
+            download
+            class="btn-cv"
+            style="white-space: nowrap; flex-shrink: 0;"
+          >
+            Télécharger
+          </a>
+        </div>
+
+        <div class="card" style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; margin-top: 1rem;">
+          <div>
+            <p class="meta">Cybersécurité</p>
+            <h3 style="margin: 0 0 0.25rem; font-size: 1.05rem;">ANSSI — SecNumacadémie</h3>
+            <p style="margin: 0; color: var(--muted); font-size: 0.92rem;">
+              Attestation de suivi du MOOC de sensibilisation à la cybersécurité — ANSSI.
+            </p>
+          </div>
+          <a
+            href="assets/certifications/anssi.pdf"
+            download
+            class="btn-cv"
+            style="white-space: nowrap; flex-shrink: 0;"
+          >
+            Télécharger
+          </a>
+        </div>
+
+      </section>
     </main>
+
     <footer class="site-footer">
       <p>© 2026 Barnabé Mathis — Tous droits réservés</p>
     </footer>
